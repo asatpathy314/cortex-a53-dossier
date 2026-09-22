@@ -1,0 +1,32 @@
+title: Cortex-A53 source dossier
+description: Source dossier for a Cortex-A53 processor report
+url: "https://asatpathy314.github.io"
+baseurl: "/cortex-a53-dossier"
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+plugins:
+  - jekyll-optional-front-matter
+  - jekyll-default-layout
+  - jekyll-titles-from-headings
+  - jekyll-relative-links
+titles_from_headings:
+  enabled: true
+  strip_title: false
+relative_links:
+  enabled: true
+  collections: false
+optional_front_matter:
+  remove_originals: true
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+exclude:
+  - README.md
+  - "*.pdf"
+  - Gemfile
+  - Gemfile.lock
+  - vendor
