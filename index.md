@@ -12,6 +12,7 @@ The four main topics are: microarchitecture (pipeline, issue rules, register fil
 - [Dossier](DOSSIER.md): a guide to reading by topic.
 - [Sources](sources/index.md): an overview of each source, with section and page references.
 - [BibTeX bibliography](references.bib): citations to copy into a LaTeX project.
+- [Slides](https://docs.google.com/presentation/d/1BUAGTdNrFzfh3wmtLcZs3sVsnJil6eU2M3V_eSNr1ww/edit?usp=sharing): a presentation on the ISA, register file, and pipeline.
 
 ## Sources
 
